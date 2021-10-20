@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(226, 226, 237);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 3% auto;
+    width: 90%;
+    height: 90vh;
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.menu {
+    border-radius: 3rem;
+}
+
+.main {
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.dropdown-container {
+    height: 80vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.symbol-drop {
+    width: 20rem;
+}
+
+.chart-drop {
+    width: 20rem;
+}
+
+.slider {
+    width: 20rem;
+}
